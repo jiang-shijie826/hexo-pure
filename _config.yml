@@ -250,5 +250,53 @@ profile:
   projects:
     cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
     cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
-    
+
+# hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+  
+
+restful:
+  # site 可配置为数组选择性生成某些属性
+  # site: ['title', 'subtitle', 'description', 'author', 'since', email', 'favicon', 'avatar']
+  site: true        # hexo.config mix theme.config
+  posts_size: 10    # 文章列表分页，0 表示不分页
+  posts_props:      # 文章列表项的需要生成的属性
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    excerpt: false
+    cover: true      # 封面图，取文章第一张图片
+    content: false
+    keywords: false
+    categories: true
+    tags: true
+  categories: true  # 分类数据
+  tags: true        # 标签数据
+  post: true        # 文章数据
+  pages: false      # 额外的 Hexo 页面数据, 如 About 
+
+ 
+translate_title:
+  translate_way: google    #google | baidu | youdao
+  #youdao_api_key: 2cd71341784580d3
+  #youdao_keyfrom: fzOvo9UuVtVjAY6DfQ3dhi62UkYXJicL
+  is_need_proxy: true     #true | false
+  proxy_url: http://localhost:8123    
     
