@@ -137,7 +137,7 @@ comment:
     repo: jiang-shijie826.github.io #必须. GitHub repository.
     ClientID: bc0a632fa810d755f9e4 #必须. GitHub Application Client ID.
     ClientSecret: 13e02c602d030ac9056c1a15ff04f6bed3139d89 #必须. GitHub Application Client Secret.
-    proxy: https://cors-anywhere.azm.workers.dev
+    proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token
     language: zh-CN
     
   valine: # Valine. https://valine.js.org
