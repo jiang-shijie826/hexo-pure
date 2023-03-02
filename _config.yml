@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: 冰凉西瓜の博客 # 页面title
   favicon: /favicon.png
   board: <p>风起于青萍之末，浪成于微澜之间</p> # 站点公告
   copyright: false # 底部版权信息
@@ -134,22 +134,22 @@ comment:
   gitalk: # gitalk. https://gitalk.github.io/
     owner: jiang-shijie826 #必须. GitHub repository 所有者，可以是个人或者组织。
     admin: jiang-shijie826 #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
-    repo: https://github.com/jiang-shijie826/myblogtalk.git #必须. GitHub repository.
+    repo: jiang-shijie826.github.io #必须. GitHub repository.
     ClientID: bc0a632fa810d755f9e4 #必须. GitHub Application Client ID.
     ClientSecret: 13e02c602d030ac9056c1a15ff04f6bed3139d89 #必须. GitHub Application Client Secret.
-    enableHotKey: true
+    # proxy: https://cors-anywhere.azm.workers.dev
     language: zh-CN
     
   valine: # Valine. https://valine.js.org
-    appid:  # your leancloud application appid
-    appkey:  # your leancloud application appkey
+    appid: EUtjorb9hI6bNt3pZDI336mv-MdYXbMMI # your leancloud application appid
+    appkey: mnugLdMjfpQ5c0HtcH1rxCUQ  # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
-    placeholder: Just go go # comment box placeholder
-    avatar: mm # gravatar style
+    placeholder: 留下你的足迹o(*￣▽￣*)ブ # comment box placeholder
+    avatar: monsterid # gravatar style
     meta: nick,mail,link # custom comment header
-    pageSize: 10 # pagination size
-    visitor: false # Article reading statistic https://valine.js.org/visitor.html
+    pageSize: 15 # pagination size
+    visitor: true # Article reading statistic https://valine.js.org/visitor.html
 
 # douban 豆瓣书单
 # Api：
@@ -250,5 +250,3 @@ profile:
   projects:
     cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
     cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
-    
-    
