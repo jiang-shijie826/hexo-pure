@@ -475,12 +475,12 @@ h4,
 
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 p {
@@ -3256,7 +3256,7 @@ body {
 body {
   padding-right: 0 !important;
   font-family: "PingHei","PingFang SC",Helvetica Neue,"Work Sans","Hiragino Sans GB","Microsoft YaHei",SimSun,sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.57143;
   color: #333333;
   background-color: #fff;
@@ -5531,9 +5531,11 @@ pre,
   margin: 10px 0;
   padding: 15px 10px;
   overflow: auto;
-  font-size: 13px;
+  font-size: 14px;
   color: #4d4d4c;
   line-height: 1.5;
+  font-weight: 500;
+  font-family: Oswald, "Microsoft Yahei", Arial, Helvetica, sans-serif;
 }
 
 .highlight .gutter pre,

@@ -41,7 +41,7 @@ config:
   skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
-  menu_highlight: false # 是否开启当前菜单高亮显示
+  menu_highlight: true # 是否开启当前菜单高亮显示
   thumbnail: false # enable posts thumbnail, options: true, false
   excerpt_link: Read More
   #New
@@ -138,7 +138,8 @@ comment:
     ClientID: bc0a632fa810d755f9e4 #必须. GitHub Application Client ID.
     ClientSecret: 13e02c602d030ac9056c1a15ff04f6bed3139d89 #必须. GitHub Application Client Secret.
     language: zh-CN
-    
+    proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'    
+  
   valine: # Valine. https://valine.js.org
     appid: EUtjorb9hI6bNt3pZDI336mv-MdYXbMMI # your leancloud application appid
     appkey: mnugLdMjfpQ5c0HtcH1rxCUQ  # your leancloud application appkey
@@ -249,3 +250,4 @@ profile:
   projects:
     cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
     cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+    
